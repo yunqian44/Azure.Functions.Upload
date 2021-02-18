@@ -5,8 +5,10 @@ using System.Threading.Tasks;
 
 namespace UploadImages.Service
 {
-    public interface IBlobSergvice
+    public interface IBlobService
     {
         Task UploadFileBlobAsync(string filePath, string filename);
+
+        Task UploadContentBlobAsync(string content, string filename);
     }
 }
