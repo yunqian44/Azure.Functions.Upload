@@ -7,6 +7,8 @@ namespace UploadImages.Service
 {
     public interface IBlobService
     {
+        Task UploadImagesBlobAsync(string filePath, string filename);
+
         Task UploadFileBlobAsync(string filePath, string filename);
 
         Task UploadContentBlobAsync(string content, string filename);
