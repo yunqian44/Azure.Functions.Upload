@@ -16,7 +16,7 @@ namespace UploadImages.Common
 
         public Appsettings(string contentPath)
         {
-            string Path = "local.settings.json";
+            string Path = "appsettings.json";
 
 
             //如果你把配置文件 是 根据环境变量来分开了，可以这样写
